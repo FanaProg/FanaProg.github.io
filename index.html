@@ -1,1 +1,293 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FanaCode — Developer Portfolio</title>
+  <meta name="description" content="FanaCode's developer portfolio — projects, skills, and experience.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="container nav__inner">
+      <span class="nav__prompt glow">guest@fanacode:~$</span>
+      <ul class="nav__links">
+        <li><a href="#hero" class="nav__link active">home</a></li>
+        <li><a href="#about" class="nav__link">about</a></li>
+        <li><a href="#experience" class="nav__link">experience</a></li>
+        <li><a href="#projects" class="nav__link">projects</a></li>
+        <li><a href="#skills" class="nav__link">skills</a></li>
+        <li><a href="#education" class="nav__link">education</a></li>
+        <li><a href="#contact" class="nav__link">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <section id="hero" class="section hero">
+      <h1 class="sr-only">FanaCode — Developer Portfolio</h1>
+      <div class="terminal">
+        <div class="terminal__bar">
+          <span class="terminal__dot terminal__dot--red"></span>
+          <span class="terminal__dot terminal__dot--yellow"></span>
+          <span class="terminal__dot terminal__dot--green"></span>
+          <span class="terminal__title">bash — 80x24</span>
+        </div>
+        <div class="terminal__body">
+          <div id="typed-output"></div>
+          <span class="cursor" id="cursor">|</span>
+        </div>
+      </div>
+      <div class="hero__links">
+        <span class="prompt glow">links --social</span>
+        <div class="hero__social">
+          <a href="https://github.com/FanaProg" target="_blank">[GitHub]</a>
+          <a href="https://www.linkedin.com/in/fanantenantsoa-rafelimanana" target="_blank">[LinkedIn]</a>
+          <a href="mailto:fanantenantsoa.rafelimanana@gmail.com">[Email]</a>
+        </div>
+        <a href="#" class="hero__resume prompt glow">download resume.pdf</a>
+      </div>
+    </section>
+
+    <section id="about" class="section fade-in">
+      <div class="terminal">
+        <div class="terminal__bar">
+          <span class="terminal__dot terminal__dot--red"></span>
+          <span class="terminal__dot terminal__dot--yellow"></span>
+          <span class="terminal__dot terminal__dot--green"></span>
+          <span class="terminal__title">about.sh</span>
+        </div>
+        <div class="terminal__body">
+          <p class="prompt glow">./about.sh</p>
+          <br>
+          <p>Hey! I'm Fanantenantsoa RAFELIMANANA, aka FanaCode — a software
+          developer and Computer Science student currently pursuing a Master's
+          degree (M2) at the University of Poitiers. I combine a meticulous
+          approach with methodical organization to build reliable software
+          solutions. Passionate about clean code and solving real-world
+          problems.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section fade-in">
+      <div class="terminal">
+        <div class="terminal__bar">
+          <span class="terminal__dot terminal__dot--red"></span>
+          <span class="terminal__dot terminal__dot--yellow"></span>
+          <span class="terminal__dot terminal__dot--green"></span>
+          <span class="terminal__title">experience.log</span>
+        </div>
+        <div class="terminal__body">
+          <p class="prompt glow">cat experience.log</p>
+          <br>
+          <div class="log-entry">
+            <span class="log-date">[Nov 2025-present]</span>
+            <span class="log-title">Intern — Fullstack Developer</span> @ <span class="log-company">Fill'n Print, Plougastel-Daoulas</span>
+            <p class="log-desc">  > 6-month internship building fullstack applications with Django and React</p>
+          </div>
+          <br>
+          <div class="log-entry">
+            <span class="log-date">[2024-2025]</span>
+            <span class="log-title">Farm Assistant / Driver</span> @ <span class="log-company">L'éveil, Poitiers</span>
+            <p class="log-desc">  > Built a web app for daily employee task tracking using Java Spring Boot, PostgreSQL, and React.js</p>
+            <p class="log-desc">  > Collaborated with the team to ensure smooth farm operations and product delivery</p>
+          </div>
+          <br>
+          <div class="log-entry">
+            <span class="log-date">[2021-2022]</span>
+            <span class="log-title">Driver / Deliverer</span> @ <span class="log-company">Family Business, Poitiers</span>
+            <p class="log-desc">  > Managed delivery logistics and customer relations</p>
+          </div>
+          <br>
+          <div class="log-entry">
+            <span class="log-date">[May-Jun 2018]</span>
+            <span class="log-title">Intern — PHP Developer</span> @ <span class="log-company">UFR Sciences, University of Poitiers</span>
+            <p class="log-desc">  > Developed a PHP library: XML Parser</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section fade-in">
+      <div class="terminal">
+        <div class="terminal__bar">
+          <span class="terminal__dot terminal__dot--red"></span>
+          <span class="terminal__dot terminal__dot--yellow"></span>
+          <span class="terminal__dot terminal__dot--green"></span>
+          <span class="terminal__title">ls ~/projects</span>
+        </div>
+        <div class="terminal__body">
+          <p class="prompt glow">ls ~/projects</p>
+          <br>
+          <div class="project-grid">
+            <div class="project-card">
+              <h3 class="project-card__name">jerboa-visualizer/</h3>
+              <p class="project-card__desc">Generic visualizer for Jerboa — a graph transformation tool. 6-month M2 project.</p>
+              <div class="project-card__tags">
+                <span class="tag">[java]</span>
+                <span class="tag">[javascript]</span>
+                <span class="tag">[webgl]</span>
+                <span class="tag">[three.js]</span>
+                <span class="tag">[node.js]</span>
+                <span class="tag">[websocket]</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#">repo</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <h3 class="project-card__name">task-tracker-app/</h3>
+              <p class="project-card__desc">Web app for tracking daily employee tasks at a farm business.</p>
+              <div class="project-card__tags">
+                <span class="tag">[spring-boot]</span>
+                <span class="tag">[react]</span>
+                <span class="tag">[postgresql]</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#">repo</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <h3 class="project-card__name">file-sync-tools/</h3>
+              <p class="project-card__desc">File synchronization utilities built with TDD. 4-month M1 project.</p>
+              <div class="project-card__tags">
+                <span class="tag">[java]</span>
+                <span class="tag">[junit]</span>
+                <span class="tag">[c++]</span>
+                <span class="tag">[cppunit]</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#">repo</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <h3 class="project-card__name">vr-collection-tour/</h3>
+              <p class="project-card__desc">VR experience to explore a collection of 3D objects. 5-month M1 project.</p>
+              <div class="project-card__tags">
+                <span class="tag">[unity]</span>
+                <span class="tag">[c#]</span>
+                <span class="tag">[blender]</span>
+                <span class="tag">[android]</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#">repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section fade-in">
+      <div class="terminal">
+        <div class="terminal__bar">
+          <span class="terminal__dot terminal__dot--red"></span>
+          <span class="terminal__dot terminal__dot--yellow"></span>
+          <span class="terminal__dot terminal__dot--green"></span>
+          <span class="terminal__title">neofetch</span>
+        </div>
+        <div class="terminal__body">
+          <p class="prompt glow">neofetch</p>
+          <br>
+          <div class="neofetch">
+            <pre class="neofetch__ascii">
+    ___________
+   / _________ \
+  / / _______\ \
+ | | |       | |
+ | | |  F C  | |
+ | | |_______| |
+  \ \_________/ /
+   \___________/
+            </pre>
+            <div class="neofetch__info">
+              <p><span class="info-label">Languages:</span> Java, Python, C/C++, JavaScript, PHP, C#, Ada, HTML/CSS</p>
+              <p><span class="info-label">Frameworks:</span> Spring Boot, Django, DRF, React, Node.js, Three.js, Tailwind, DaisyUI, Symfony, Unity</p>
+              <p><span class="info-label">Tools:</span> Git, Webpack, WebSocket, WebGL, Scrum</p>
+              <p><span class="info-label">Databases:</span> PostgreSQL, Oracle, phpMyAdmin</p>
+              <p><span class="info-label">IDEs:</span> VS Code, Eclipse, IntelliJ, NetBeans, PhpStorm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section fade-in">
+      <div class="terminal">
+        <div class="terminal__bar">
+          <span class="terminal__dot terminal__dot--red"></span>
+          <span class="terminal__dot terminal__dot--yellow"></span>
+          <span class="terminal__dot terminal__dot--green"></span>
+          <span class="terminal__title">cat education.txt</span>
+        </div>
+        <div class="terminal__body">
+          <p class="prompt glow">cat education.txt</p>
+          <br>
+          <div class="log-entry">
+            <span class="log-date">[2025-present]</span>
+            <span class="log-title">Master 2 Computer Science</span> @ <span class="log-company">University of Poitiers</span>
+            <p class="log-desc">  > Software Design track</p>
+          </div>
+          <br>
+          <div class="log-entry">
+            <span class="log-date">[2019-2020]</span>
+            <span class="log-title">Master 2 Computer Science</span> @ <span class="log-company">University of Poitiers</span>
+            <p class="log-desc">  > Software Design track</p>
+          </div>
+          <br>
+          <div class="log-entry">
+            <span class="log-date">[2018-2019]</span>
+            <span class="log-title">Master 1 Computer Science</span> @ <span class="log-company">University of Poitiers</span>
+            <p class="log-desc">  > Software Design track</p>
+          </div>
+          <br>
+          <div class="log-entry">
+            <span class="log-date">[2014-2018]</span>
+            <span class="log-title">Bachelor's in Computer Science</span> @ <span class="log-company">University of Poitiers</span>
+          </div>
+          <br>
+          <div class="log-entry">
+            <span class="log-date">[2011-2014]</span>
+            <span class="log-title">Scientific Baccalaureate</span> @ <span class="log-company">Lycée Camille Guérin, Poitiers</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section fade-in">
+      <div class="terminal">
+        <div class="terminal__bar">
+          <span class="terminal__dot terminal__dot--red"></span>
+          <span class="terminal__dot terminal__dot--yellow"></span>
+          <span class="terminal__dot terminal__dot--green"></span>
+          <span class="terminal__title">mail</span>
+        </div>
+        <div class="terminal__body">
+          <p class="prompt glow">mail --compose</p>
+          <br>
+          <p>Want to work together? Reach out:</p>
+          <br>
+          <p><a href="mailto:fanantenantsoa.rafelimanana@gmail.com">  > fanantenantsoa.rafelimanana@gmail.com</a></p>
+          <p><a href="https://github.com/FanaProg" target="_blank">  > github.com/FanaProg</a></p>
+          <p><a href="https://www.linkedin.com/in/fanantenantsoa-rafelimanana" target="_blank">  > linkedin.com/in/fanantenantsoa-rafelimanana</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="glow">guest@fanacode:~$ <span class="cursor-blink">|</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
